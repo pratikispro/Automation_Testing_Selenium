@@ -51,7 +51,7 @@ class LoginTest(unittest.TestCase):
 
         title_input.send_keys("Test Article")
         description_input.send_keys("This is a test article.")
-        cover_image_input.send_keys("C:/Users/KIIT/Desktop/Selenium-symbol-Se-square-periodic-table-some.jpg")
+        cover_image_input.send_keys("img path")
         post_button.click()
 
         # Wait for article to be posted and get the URL of the new page
